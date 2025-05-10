@@ -22,7 +22,7 @@ Key features include:
 ## Prerequisites
 
 - Node.js (version 22)
-- npm or yarn
+- yarn
 
 ## Getting Started
 
@@ -38,8 +38,6 @@ Follow these steps to set up and run the project locally:
 
 2. Install dependencies:
    ```bash
-   npm install
-   # or
    yarn
    ```
 
@@ -48,8 +46,6 @@ Follow these steps to set up and run the project locally:
 To run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
@@ -65,10 +61,10 @@ Once the development server is running, you can access the application in your w
 You can customize the port by setting the `PORT` environment variable:
 ```bash
 # For development
-PORT=3000 npm run dev
+PORT=3000 yarn dev
 
 # For preview
-PORT=8080 npm run preview
+PORT=8080 yarn preview
 ```
 
 ### Building for Production
@@ -76,8 +72,6 @@ PORT=8080 npm run preview
 To create a production build:
 
 ```bash
-npm run build
-# or
 yarn build
 ```
 
@@ -88,8 +82,6 @@ The build artifacts will be stored in the `dist/` directory.
 To preview the production build locally:
 
 ```bash
-npm run preview
-# or
 yarn preview
 ```
 

@@ -1,0 +1,15 @@
+node_modules
+.next
+yarn.lock
+public 
+coverage
+.gitkeep
+*.hbs
+.plot/*
+.vscode/*
+next.config.js
+./tailwind.settings.colors.ts
+./src/app.color.css
+./src/core/components/atoms/micIcon/font
+**/i18n/*
+auto-imports.d.ts
